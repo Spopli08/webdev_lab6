@@ -1,0 +1,115 @@
+body{ background-image: url("../images/black.jpg");}
+
+#page-wrapper{ 
+width: 960px;
+margin: 0 auto;
+box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
+border-radius: 12px 12px 0px 0px; }
+
+#header {
+    margin-top: 40px;
+    border-radius: 12px 12px 0px 0px; 
+    position: relative; }
+
+#header h1 {
+  position: absolute;
+  left: 420px;
+  top:5px;
+  font-size: 3em;
+  font-family: 'Devonshire', cursive;
+  color: #de583d;
+}
+
+#header a#logo1 img {
+    margin: 20px 0 20px 20px;
+  }
+  
+  #header #toplink {
+    text-decoration: none;
+    position: absolute;
+    top: -34px;
+    right: 10px;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  
+  #footer {
+    background-color: #777;
+    height: 80px;
+    clear: both;
+  }
+  
+  #content-wrapper {
+    background: url("../images/repeating.png") repeat;
+    float: left;
+  }
+  
+  #main-content {
+    min-height: 300px;
+    width: 715px;
+    margin: 0 30px 0 15px;
+    float: left;
+  }
+  
+  h2 strong {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .image-r {
+    float: right;
+    border: 2px solid blue;
+    width: 300px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 10px 0 10px 20px;
+  }
+  
+  #side-content {
+    min-height: 150px;
+    width: 200px;
+    float: left;
+  }
+  
+  #main-nav {
+    width: 100%;
+    float: left;
+    background-color: #333;
+  }
+  
+  #main-nav ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    left: 50%;
+  }
+  
+  #main-nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+  }
+  
+  #main-nav ul li a {
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    color: rgb(218, 217, 217);
+  }
+  
+  #main-nav ul li a:hover {
+    background: #ccc;
+    color: #333;
+  }
+  
+  #center {
+    width: 960px;
+    text-align: center;
+  }
+  
+  strong {
+    font-weight: 700;
+    font-size: 3rem;
+  }
